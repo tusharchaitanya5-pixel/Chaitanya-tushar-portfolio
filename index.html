@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Chaitanya Tushar — BFSI portfolio featuring experience in project operations, insurance sales, HR, and business development." />
+  <meta property="og:title" content="Chaitanya Tushar — BFSI Professional" />
+  <meta property="og:description" content="Portfolio website for Chaitanya Tushar, a Mumbai-based BFSI student and early-career professional." />
+  <meta property="og:type" content="website" />
+  <title>Chaitanya Tushar — BFSI Professional</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+  <div class="cursor-circle" id="cursorCircle" aria-hidden="true"></div>
+  <div class="scroll-indicator" id="scrollBar" aria-hidden="true"></div>
+
+  <!-- ── Ticker Bar ──────────────────────────────────────────── -->
+  <div class="ticker-bar" aria-hidden="true">
+    <div class="ticker-track">
+      <span>BFSI <span class="up">▲ 2.4%</span></span>
+      <span>HDFC LIFE <span class="up">▲ 1.8%</span></span>
+      <span>STAR HEALTH <span class="up">▲ 3.1%</span></span>
+      <span>TISS <span class="up">▲ LIVE</span></span>
+      <span>TEAM LEADER <span class="up">▲ 0.9%</span></span>
+      <span>INSURANCE SECTOR <span class="up">▲ 1.2%</span></span>
+      <span>FINANCE INTERNSHIPS <span class="up">▲ 5</span></span>
+      <span>CANDIDATES INTERVIEWED <span class="up">▲ 1000+</span></span>
+      <span>PROJECT VALUE <span class="up">▲ ₹1Cr</span></span>
+      <span>PROJECT EXECUTION <span class="down">▼ 0.3%</span></span>
+      <span>BFSI <span class="up">▲ 2.4%</span></span>
+      <span>HDFC LIFE <span class="up">▲ 1.8%</span></span>
+      <span>STAR HEALTH <span class="up">▲ 3.1%</span></span>
+      <span>TISS <span class="up">▲ LIVE</span></span>
+      <span>TEAM LEADER <span class="up">▲ 0.9%</span></span>
+      <span>INSURANCE SECTOR <span class="up">▲ 1.2%</span></span>
+      <span>FINANCE INTERNSHIPS <span class="up">▲ 5</span></span>
+      <span>CANDIDATES INTERVIEWED <span class="up">▲ 1000+</span></span>
+      <span>PROJECT VALUE <span class="up">▲ ₹1Cr</span></span>
+      <span>PROJECT EXECUTION <span class="down">▼ 0.3%</span></span>
+    </div>
+  </div>
+
+  <!-- ── Header & Navigation ─────────────────────────────────── -->
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#about" aria-label="Chaitanya Tushar home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <circle cx="24" cy="24" r="19" stroke="currentColor" stroke-width="2.2"/>
+            <path d="M16 18.5h10.5M21.5 18.5v11.5c0 2.2 1.7 4 3.9 4 1.4 0 2.6-.5 3.6-1.6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <strong>Chaitanya Tushar</strong>
+          <span>BFSI Professional · Mumbai</span>
+        </span>
+      </a>
+
+      <nav aria-label="Primary">
+        <button class="mobile-toggle" id="mobileToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open navigation">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="theme-toggle" data-theme-toggle aria-label="Switch theme">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- ── Particles ───────────────────────────────────────────── -->
+  <div class="particles" id="particles" aria-hidden="true"></div>
+
+  <!-- ── Main Content ────────────────────────────────────────── -->
+  <main id="main-content">
+
+    <!-- Hero / About -->
+    <section class="hero" id="about">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">BFSI Professional · Mumbai</p>
+          <h1>Chaitanya <span>Tushar</span></h1>
+          <p class="hero-copy">Product &amp; Project Intern at BFSI SSC and a TISS BFSI student focused on insurance, project operations, HR coordination, and business development across real-world financial services environments.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#experience">View Experience</a>
+            <a class="btn btn-secondary" href="#contact">Get in Touch</a>
+          </div>
+        </div>
+
+        <aside class="hero-panel" aria-label="Career highlights">
+          <div class="panel-top">
+            <div>
+              <p class="panel-title">Career Snapshot</p>
+            </div>
+            <span class="panel-chip">TISS '26</span>
+          </div>
+          <div class="hero-chart" aria-hidden="true">
+            <svg viewBox="0 0 800 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <polyline points="0,350 80,300 160,320 240,240 320,260 400,160 480,180 560,100 640,120 720,60 800,40" stroke="#C9A84C" stroke-width="4" fill="none"/>
+              <polyline points="0,380 80,360 160,370 240,340 320,350 400,280 480,300 560,240 640,260 720,200 800,180" stroke="#48CAE4" stroke-width="2" stroke-dasharray="8 6" fill="none" opacity="0.7"/>
+              <circle cx="400" cy="160" r="8" fill="#C9A84C"/>
+              <circle cx="560" cy="100" r="8" fill="#C9A84C"/>
+              <circle cx="800" cy="40" r="10" fill="#C9A84C"/>
+            </svg>
+          </div>
+          <div class="hero-stats">
+            <article class="stat-card">
+              <div class="stat-num" data-count="1000" data-suffix="+">1000+</div>
+              <div class="stat-label">Interviews Conducted</div>
+            </article>
+            <article class="stat-card">
+              <div class="stat-num" data-raw="₹1Cr">₹1Cr</div>
+              <div class="stat-label">Project Managed</div>
+            </article>
+            <article class="stat-card">
+              <div class="stat-num" data-count="5">5</div>
+              <div class="stat-label">Internship Roles</div>
+            </article>
+            <article class="stat-card">
+              <div class="stat-num" data-count="3" data-suffix="+">3+</div>
+              <div class="stat-label">Years in BFSI Sector</div>
+            </article>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- About Me -->
+    <section class="section">
+      <div class="container about-grid">
+        <div><div class="about-big">BFSI</div></div>
+        <div class="about-copy">
+          <div class="section-header" style="margin-bottom: 1.75rem;">
+            <div class="section-tag">01</div>
+            <h2 class="section-title">About Me</h2>
+          </div>
+          <p>I am pursuing a Bachelor's degree in Banking, Financial Services &amp; Insurance at the Tata Institute of Social Sciences, where I am building a strong base in finance, insurance, and organizational management.</p>
+          <p>My experience spans HR operations, insurance sales, candidate coordination, relationship management, and project execution, including managing high-volume interview workflows and supporting apprenticeship placements in the BFSI ecosystem.</p>
+          <div class="tag-list" aria-label="Core strengths">
+            <span class="tag">Insurance Sales</span>
+            <span class="tag">Project Operations</span>
+            <span class="tag">HR Coordination</span>
+            <span class="tag">Business Development</span>
+            <span class="tag">Communication</span>
+            <span class="tag">Team Leadership</span>
+            <span class="tag">CRM Systems</span>
+            <span class="tag">Data Analysis</span>
+            <span class="tag">MS Office</span>
+            <span class="tag">Strategic Thinking</span>
+            <span class="tag">Client Relations</span>
+            <span class="tag">Content Creation</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section experience-shell" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">02</div>
+          <h2 class="section-title">Experience</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="timeline">
+          <!-- Role 1 -->
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-company">BFSI Sector Skill Council of India</span>
+                <span class="timeline-badge">Current</span>
+              </div>
+              <h3 class="timeline-role">Product &amp; Project Intern</h3>
+              <p class="timeline-period">November 2025 – Present · Mumbai</p>
+              <p class="timeline-desc">Leading end-to-end project operations including team management, candidate mobilisation, and placement coordination across partner companies within the BFSI apprenticeship ecosystem.</p>
+              <div class="timeline-highlight">Led a ₹1 crore project, conducted 1000+ interviews in two months, and supported candidate placement across partner organizations.</div>
+            </div>
+          </article>
+
+          <!-- Role 2 -->
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-company">HDFC Life</span>
+              </div>
+              <h3 class="timeline-role">Business Development Intern</h3>
+              <p class="timeline-period">April 2025 – June 2025 · Mumbai, Maharashtra</p>
+              <p class="timeline-desc">Worked on lead generation, client acquisition, and life insurance sales support. Promoted suitable policy offerings, handled cold calling, and contributed to customer relationship management and content-driven outreach.</p>
+            </div>
+          </article>
+
+          <!-- Role 3 -->
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-company">BFSI Sector Skill Council of India</span>
+              </div>
+              <h3 class="timeline-role">Human Resources Intern</h3>
+              <p class="timeline-period">October 2024 – December 2024 · Mumbai Metropolitan Region</p>
+              <p class="timeline-desc">Managed candidate data for apprenticeship assessments, supported PMKVY candidates, and assisted with assessment and exam coordination, with hands-on work in HR operations, compliance support, and data verification.</p>
+            </div>
+          </article>
+
+          <!-- Role 4 -->
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-company">Star Health and Allied Insurance</span>
+              </div>
+              <h3 class="timeline-role">Relationship Manager Intern</h3>
+              <p class="timeline-period">December 2023 – August 2024 · Mumbai, Maharashtra</p>
+              <p class="timeline-desc">Managed client relationships, supported health insurance sales, handled customer queries, and helped ensure smoother policy issuance while strengthening communication and service delivery skills.</p>
+            </div>
+          </article>
+
+          <!-- Role 5 -->
+          <article class="timeline-item">
+            <div class="timeline-dot" aria-hidden="true"></div>
+            <div class="timeline-card">
+              <div class="timeline-meta">
+                <span class="timeline-company">Unschool Pvt. Ltd.</span>
+              </div>
+              <h3 class="timeline-role">Youth Influencer Officer</h3>
+              <p class="timeline-period">October 2023 – November 2023 · Mumbai, Maharashtra</p>
+              <p class="timeline-desc">Promoted online learning programs, engaged potential learners through outreach campaigns, and supported enrollment efforts while improving digital communication and marketing execution.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">03</div>
+          <h2 class="section-title">Skills &amp; Expertise</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Finance & Insurance -->
+          <article class="skill-group">
+            <h3 class="skill-group-title">Finance &amp; Insurance</h3>
+            <div class="skill-item">
+              <div class="skill-head"><span>Insurance Sales &amp; Policy Management</span><span class="skill-pct">90%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-head"><span>Client Relationship Management</span><span class="skill-pct">88%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-head"><span>Business Development</span><span class="skill-pct">82%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-head"><span>BFSI Sector Knowledge</span><span class="skill-pct">85%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+            </div>
+          </article>
+
+          <!-- HR & Operations -->
+          <article class="skill-group">
+            <h3 class="skill-group-title">HR &amp; Operations</h3>
+            <div class="skill-item">
+              <div class="skill-head"><span>HR Operations &amp; Data Management</span><span class="skill-pct">87%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="87"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-head"><span>Team Leadership</span><span class="skill-pct">90%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-head"><span>Project Management</span><span class="skill-pct">80%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-head"><span>Candidate Mobilisation</span><span class="skill-pct">92%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="92"></div></div>
+            </div>
+          </article>
+
+          <!-- Tech & Communication -->
+          <article class="skill-group">
+            <h3 class="skill-group-title">Tech &amp; Communication</h3>
+            <div class="skill-item">
+              <div class="skill-head"><span>MS Office Suite</span><span class="skill-pct">88%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-head"><span>CRM Systems</span><span class="skill-pct">82%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-head"><span>Content Creation &amp; Digital Marketing</span><span class="skill-pct">78%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="78"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-head"><span>Communication (English)</span><span class="skill-pct">95%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-tag">04</div>
+          <h2 class="section-title">Education</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="edu-grid">
+          <article class="edu-card" data-icon="🎓">
+            <h3 class="edu-degree">B.Sc. in Banking, Financial Services &amp; Insurance</h3>
+            <p class="edu-school">Tata Institute of Social Sciences (TISS)</p>
+            <p class="edu-period">August 2023 – July 2026 · Final Year</p>
+          </article>
+          <article class="edu-card" data-icon="📚">
+            <h3 class="edu-degree">10+2 · Business / Commerce</h3>
+            <p class="edu-school">Delhi Public School, Dhanbad · Jharkhand</p>
+            <p class="edu-period">April 2021 – March 2023</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact-band" id="contact">
+      <div class="container contact-inner">
+        <h2 class="contact-title">Let's Connect</h2>
+        <p class="contact-sub">Open to opportunities, collaborations, and conversations in the BFSI space, especially across finance, insurance, operations, and early-career project roles.</p>
+        <div class="contact-links">
+          <a class="contact-link" href="mailto:chaitanyatushar2@gmail.com">
+            <span class="contact-icon" aria-hidden="true">✉</span>
+            <span><small>Email</small><strong>chaitanyatushar2@gmail.com</strong></span>
+          </a>
+          <a class="contact-link" href="https://www.linkedin.com/in/chaitanya-tushar-52a18726b/" target="_blank" rel="noopener noreferrer">
+            <span class="contact-icon" aria-hidden="true">💼</span>
+            <span><small>LinkedIn</small><strong>Chaitanya Tushar</strong></span>
+          </a>
+          <div class="contact-link" role="group" aria-label="Location">
+            <span class="contact-icon" aria-hidden="true">📍</span>
+            <span><small>Location</small><strong>Mumbai, Maharashtra, India</strong></span>
+          </div>
+          <a class="contact-link" href="tel:+919113137589">
+            <span class="contact-icon" aria-hidden="true">📞</span>
+            <span><small>Phone</small><strong>+91 91131 37589</strong></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── Footer ──────────────────────────────────────────────── -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-mark">Chaitanya Tushar</div>
+      <p>© 2026 · BFSI Portfolio · TISS '26</p>
+      <p class="footer-meta">Finance · Insurance · Growth</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
